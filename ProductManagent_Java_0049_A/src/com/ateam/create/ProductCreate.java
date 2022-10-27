@@ -285,7 +285,7 @@ public class ProductCreate {
 		//商品分類が入力されているか
 		if (productKind.isEmpty()) {
 			System.out.println("商品分類を入力してください");
-			checkName();
+			checkKind();
 		}
 
 		//商品分類が100バイト超えていないか
